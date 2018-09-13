@@ -1,5 +1,6 @@
 # Notepad++ OSSL-LSL Syntax mit Autovervollständigung
-Notepad++  OSSL-LSL language mit Autovervollständigung
+
+LSL-2018 ist erweitert um die vielen neuen Kommandos.
 
 OpenSim script language und Second Life script language Erweiterung für Notepad++
 
