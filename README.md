@@ -4,6 +4,7 @@ ossl ist vom 23.05.2019 dazu kann auch die gleichnamige Autovervollständigung g
 
 ossl ist inklusive lsl und um alle neuen Funktionen der 0.9.1 erweitert.
 
+# Alt
 LSL-2018 ist erweitert um die vielen neuen Kommandos.
 
 OpenSim script language und Second Life script language Erweiterung für Notepad++
