@@ -1,4 +1,4 @@
-# Notepad++ OSSL-LSL Syntax mit Autovervollständigung
+# Notepad++ OSSL-LSL Syntax
 
 Dies ist für den OpenSimulator: http://opensimulator.org/wiki/OSSL
 
