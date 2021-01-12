@@ -1,5 +1,461 @@
- //Avatars
+// LSL
 
+    llAbs
+    llAcos
+    llAddToLandBanList
+    llAddToLandPassList
+    llAdjustSoundVolume
+    llAgentInExperience
+    llAllowInventoryDrop
+    llAngleBetween
+    llApplyImpulse
+    llApplyRotationalImpulse
+    llAsin
+    llAtan2
+    llAttachToAvatar
+    llAttachToAvatarTemp
+    llAvatarOnLinkSitTarget
+    llAvatarOnSitTarget
+    llAxes2Rot
+    llAxisAngle2Rot
+    llBase64ToInteger
+    llBase64ToString
+    llBreakAllLinks
+    llBreakLink
+    llCastRay
+    llCeil
+    llClearCameraParams
+    llClearLinkMedia
+    llClearPrimMedia
+    llCloseRemoteDataChannel
+    llCloud
+    llCollisionFilter
+    llCollisionSound
+    llCollisionSprite
+    llCos
+    llCreateCharacter
+    llCreateKeyValue
+    llCreateLink
+    llCSV2List
+    llDataSizeKeyValue
+    llDeleteCharacter
+    llDeleteKeyValue
+    llDeleteSubList
+    llDeleteSubString
+    llDetachFromAvatar
+    llDetectedGrab
+    llDetectedGroup
+    llDetectedKey
+    llDetectedLinkNumber
+    llDetectedName
+    llDetectedOwner
+    llDetectedPos
+    llDetectedRot
+    llDetectedTouchBinormal
+    llDetectedTouchFace
+    llDetectedTouchNormal
+    llDetectedTouchPos
+    llDetectedTouchST
+    llDetectedTouchUV
+    llDetectedType
+    llDetectedVel
+    llDialog
+    llDie
+    llDumpList2String
+    llEdgeOfWorld
+    llEjectFromLand
+    llEmail
+    llEscapeURL
+    llEuler2Rot
+    llEvade
+    llExecCharacterCmd
+    llFabs
+    llFleeFrom
+    llFloor
+    llForceMouselook
+    llFrand
+    llGenerateKey
+    llGetAccel
+    llGetAgentInfo
+    llGetAgentLanguage
+    llGetAgentList
+    llGetAgentSize
+    llGetAlpha
+    llGetAndResetTime
+    llGetAnimation
+    llGetAnimationList
+    llGetAnimationOverride
+    llGetAttached
+    llGetAttachedList
+    llGetBoundingBox
+    llGetCameraPos
+    llGetCameraRot
+    llGetCenterOfMass
+    llGetClosestNavPoint
+    llGetColor
+    llGetCreator
+    llGetDate
+    llGetDayLength
+    llGetDayOffset
+    llGetDisplayName
+    llGetEnergy
+    llGetEnv
+    llGetEnvironment
+    llGetExperienceDetails
+    llGetExperienceErrorMessage
+    llGetForce
+    llGetFreeMemory
+    llGetFreeURLs
+    llGetGeometricCenter
+    llGetGMTclock
+    llGetHTTPHeader
+    llGetInventoryCreator
+    llGetInventoryKey
+    llGetInventoryName
+    llGetInventoryNumber
+    llGetInventoryPermMask
+    llGetInventoryType
+    llGetKey
+    llGetLandOwnerAt
+    llGetLinkKey
+    llGetLinkMedia
+    llGetLinkName
+    llGetLinkNumber
+    llGetLinkNumberOfSides
+    llGetLinkPrimitiveParams
+    llGetListEntryType
+    llGetListLength
+    llGetLocalPos
+    llGetLocalRot
+    llGetMass
+    llGetMassMKS
+    llGetMaxScaleFactor
+    llGetMemoryLimit
+    llGetMinScaleFactor
+    llGetMoonDirection
+    llGetMoonRotation
+    llGetNextEmail
+    llGetNotecardLine
+    llGetNumberOfNotecardLines
+    llGetNumberOfPrims
+    llGetNumberOfSides
+    llGetObjectAnimationNames
+    llGetObjectDesc
+    llGetObjectDetails
+    llGetObjectMass
+    llGetObjectName
+    llGetObjectPermMask
+    llGetObjectPrimCount
+    llGetOmega
+    llGetOwner
+    llGetOwnerKey
+    llGetParcelDetails
+    llGetParcelFlags
+    llGetParcelMaxPrims
+    llGetParcelMusicURL
+    llGetParcelPrimCount
+    llGetParcelPrimOwners
+    llGetPermissions
+    llGetPermissionsKey
+    llGetPhysicsMaterial
+    llGetPos
+    llGetPrimitiveParams
+    llGetPrimMediaParams
+    llGetRegionAgentCount
+    llGetRegionCorner
+    llGetRegionDayLength
+    llGetRegionDayOffset
+    llGetRegionFlags
+    llGetRegionFPS
+    llGetRegionMoonDirection
+    llGetRegionMoonRotation
+    llGetRegionName
+    llGetRegionSunDirection
+    llGetRegionSunRotation
+    llGetRegionTimeDilation
+    llGetRootPosition
+    llGetRootRotation
+    llGetRot
+    llGetScale
+    llGetScriptName
+    llGetScriptState
+    llGetSimStats
+    llGetSimulatorHostname
+    llGetSPMaxMemory
+    llGetStartParameter
+    llGetStaticPath
+    llGetStatus
+    llGetSubString
+    llGetSunDirection
+    llGetSunRotation
+    llGetTexture
+    llGetTextureOffset
+    llGetTextureRot
+    llGetTextureScale
+    llGetTime
+    llGetTimeOfDay
+    llGetTimestamp
+    llGetTorque
+    llGetUnixTime
+    llGetUsedMemory
+    llGetUsername
+    llGetVel
+    llGetWallclock
+    llGiveInventory
+    llGiveInventoryList
+    llGiveMoney
+    llGodLikeRezObject
+    llGround
+    llGroundContour
+    llGroundNormal
+    llGroundRepel
+    llGroundSlope
+    llHTTPRequest
+    llHTTPResponse
+    llInsertString
+    llInstantMessage
+    llIntegerToBase64
+    llJson2List
+    llJsonGetValue
+    llJsonSetValue
+    llJsonValueType
+    llKey2Name
+    llKeyCountKeyValue
+    llKeysKeyValue
+    llLinear2sRGB
+    llLinkParticleSystem
+    llLinkSitTarget
+    llList2CSV
+    llList2Float
+    llList2Integer
+    llList2Json
+    llList2Key
+    llList2List
+    llList2ListStrided
+    llList2Rot
+    llList2String
+    llList2Vector
+    llListen
+    llListenControl
+    llListenRemove
+    llListFindList
+    llListInsertList
+    llListRandomize
+    llListReplaceList
+    llListSort
+    llListStatistics
+    llLoadURL
+    llLog
+    llLog10
+    llLookAt
+    llLoopSound
+    llLoopSoundMaster
+    llLoopSoundSlave
+    llMakeExplosion
+    llMakeFire
+    llMakeFountain
+    llMakeSmoke
+    llManageEstateAccess
+    llMapDestination
+    llMD5String
+    llMessageLinked
+    llMinEventDelay
+    llModifyLand
+    llModPow
+    llMoveToTarget
+    llName2Key
+    llNavigateTo
+    llOffsetTexture
+    llOpenRemoteDataChannel
+    llOverMyLand
+    llOwnerSay
+    llParcelMediaCommandList
+    llParcelMediaQuery
+    llParseString2List
+    llParseStringKeepNulls
+    llParticleSystem
+    llPassCollisions
+    llPassTouches
+    llPatrolPoints
+    llPlaySound
+    llPlaySoundSlave
+    llPointAt
+    llPow
+    llPreloadSound
+    llPursue
+    llPushObject
+    llReadKeyValue
+    llRefreshPrimURL
+    llRegionSay
+    llRegionSayTo
+    llReleaseCamera
+    llReleaseControls
+    llReleaseURL
+    llRemoteDataReply
+    llRemoteDataSetRegion
+    llRemoteLoadScript
+    llRemoteLoadScriptPin
+    llRemoveFromLandBanList
+    llRemoveFromLandPassList
+    llRemoveInventory
+    llRemoveVehicleFlags
+    llReplaceAgentEnvironment
+    llRequestAgentData
+    llRequestDisplayName
+    llRequestExperiencePermissions
+    llRequestInventoryData
+    llRequestPermissions
+    llRequestSecureURL
+    llRequestSimulatorData
+    llRequestURL
+    llRequestUserKey
+    llRequestUsername
+    llResetAnimationOverride
+    llResetLandBanList
+    llResetLandPassList
+    llResetOtherScript
+    llResetScript
+    llResetTime
+    llReturnObjectsByID
+    llReturnObjectsByOwner
+    llRezAtRoot
+    llRezObject
+    llRot2Angle
+    llRot2Axis
+    llRot2Euler
+    llRot2Fwd
+    llRot2Left
+    llRot2Up
+    llRotateTexture
+    llRotBetween
+    llRotLookAt
+    llRotTarget
+    llRotTargetRemove
+    llRound
+    llSameGroup
+    llSay
+    llScaleByFactor
+    llScaleTexture
+    llScriptDanger
+    llScriptProfiler
+    llSendRemoteData
+    llSensor
+    llSensorRemove
+    llSensorRepeat
+    llSetAgentEnvironment
+    llSetAlpha
+    llSetAngularVelocity
+    llSetAnimationOverride
+    llSetBuoyancy
+    llSetCameraAtOffset
+    llSetCameraEyeOffset
+    llSetCameraParams
+    llSetClickAction
+    llSetColor
+    llSetContentType
+    llSetDamage
+    llSetForce
+    llSetForceAndTorque
+    llSetHoverHeight
+    llSetInventoryPermMask
+    llSetKeyframedMotion
+    llSetLinkAlpha
+    llSetLinkCamera
+    llSetLinkColor
+    llSetLinkMedia
+    llSetLinkPrimitiveParams
+    llSetLinkPrimitiveParamsFast
+    llSetLinkTexture
+    llSetLinkTextureAnim
+    llSetLocalRot
+    llSetMemoryLimit
+    llSetObjectDesc
+    llSetObjectName
+    llSetObjectPermMask
+    llSetParcelMusicURL
+    llSetPayPrice
+    llSetPhysicsMaterial
+    llSetPos
+    llSetPrimitiveParams
+    llSetPrimMediaParams
+    llSetPrimURL
+    llSetRegionPos
+    llSetRemoteScriptAccessPin
+    llSetRot
+    llSetScale
+    llSetScriptState
+    llSetSitText
+    llSetSoundQueueing
+    llSetSoundRadius
+    llSetStatus
+    llSetText
+    llSetTexture
+    llSetTextureAnim
+    llSetTimerEvent
+    llSetTorque
+    llSetTouchText
+    llSetVehicleFlags
+    llSetVehicleFloatParam
+    llSetVehicleRotationParam
+    llSetVehicleType
+    llSetVehicleVectorParam
+    llSetVelocity
+    llSHA1String
+    llShout
+    llSin
+    llSitOnLink
+    llSitTarget
+    llSleep
+    llSound
+    llSoundPreload
+    llSqrt
+    llsRGB2Linear
+    llStartAnimation
+    llStartObjectAnimation
+    llStopAnimation
+    llStopObjectAnimation
+    llStopHover
+    llStopLookAt
+    llStopMoveToTarget
+    llStopPointAt
+    llStopSound
+    llStringLength
+    llStringToBase64
+    llStringTrim
+    llSubStringIndex
+    llTakeCamera
+    llTakeControls
+    llTan
+    llTarget
+    llTargetedEmail
+    llTargetOmega
+    llTargetRemove
+    llTeleportAgent
+    llTeleportAgentGlobalCoords
+    llTeleportAgentHome
+    llTextBox
+    llToLower
+    llToUpper
+    llTransferLindenDollars
+    llTriggerSound
+    llTriggerSoundLimited
+    llUnescapeURL
+    llUnSit
+    llUpdateCharacter
+    llUpdateKeyValue
+    llVecDist
+    llVecMag
+    llVecNorm
+    llVolumeDetect
+    llWanderWithin
+    llWater
+    llWhisper
+    llWind
+    llXorBase64
+    llXorBase64Strings
+    llXorBase64StringsCorrect 
+
+// OSSL
     osAddAgentToGroup
     osAgentSaveAppearance
     osAvatarName2Key
@@ -40,9 +496,6 @@
     osTeleportAgent
     osTeleportOwner
     osReplaceAgentEnvironment
-
-//NPCs
-
     osIsNpc
     osNpcCreate
     osGetNpcList
@@ -67,9 +520,6 @@
     osNpcStopAnimation
     osNpcTouch
     osNpcWhisper 
-
-//Prim
-
     osClearInertia
     osClearObjectAnimations
     osDie
@@ -104,9 +554,6 @@
     osSetLinkStandTarget
     osTeleportObject
     osVolumeDetect 
-
-//Prim Drawing / Dynamic Texture
-
     osDrawEllipse
     osDrawFilledEllipse
     osDrawFilledPolygon
@@ -134,16 +581,10 @@
     osSetDynamicTextureURL
     osSetDynamicTextureURLBlend
     osSetDynamicTextureURLBlendFace
-
-//Notecard
-
     osGetNotecard
     osGetNotecardLine
     osGetNumberOfNotecardLines
     osMakeNotecard 
-
-//Sound
-
     osAdjustSoundVolume
     osCollisionSound
     osLoopSound
@@ -156,30 +597,18 @@
     osStopSound
     osTriggerSound
     osTriggerSoundLimited 
-
-//HTTP
-
     osRequestSecureURL
     osRequestURL
     osSetContentType 
-
-//Parcel
-
     osParcelJoin
     osParcelSubdivide
     osGetParcelDwell
     osSetParcelDetails 
-
-//Terrain
-
     osGetTerrainHeight
     osSetTerrainHeight
     osSetTerrainTexture
     osSetTerrainTextureHeight
     osTerrainFlush 
-
-//Region / Parcel Environment
-
     osGetCurrentSunHour
     osGetApparentTime
     osGetApparentTimeString
@@ -192,9 +621,6 @@
     osReplaceParcelEnvironment
     osReplaceRegionEnvironment
     osResetEnvironment
-
-//Grid / Region Information
-
     osCheckODE
     osGetGridCustom
     osGetGridGatekeeperURI
@@ -215,22 +641,13 @@
     osLoadedCreationDate
     osLoadedCreationID
     osLoadedCreationTime 
-
-//Administration
-
     osConsoleCommand
     osRegionNotice
     osRegionRestart
     osSetParcelMediaURL
     osSetParcelMusicURL
     osSetParcelSIPAddress 
-
-//Script
-
     osResetAllScripts 
-
-//String Manipulation
-
     osFormatString
     osListenRegex
     osMatchString
@@ -243,9 +660,6 @@
     osStringLastIndexOf
     osStringRemove
     osStringReplace 
-
-//Misc
-
     osAngleBetween
     osApproxEquals
     osGetPSTWallclock
