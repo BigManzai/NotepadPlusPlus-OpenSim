@@ -1,11 +1,12 @@
 # Notepad++ OSSL-LSL Syntax
 
-Dies ist für den OpenSimulator: http://opensimulator.org/wiki/OSSL
+Dies ist für den OpenSimulator und Second Life.
 
-ossl.xml und oslogfile.xml ist vom 12.01.2021, mehr benötigt man normalerweise nicht.
+ossl.xml LSL und OSSL Syntax für Notepad++.
 
-ossl ist inklusive lsl und um alle neuen Funktionen der 0.9.2 erweitert.
+oslogfile.xml macht die Robust.log und die OpenSim.log Datei deutlich lesbarer.
 
+## Installation
 
     Notepad++ öffnen
     Sprachen 
