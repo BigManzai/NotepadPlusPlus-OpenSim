@@ -24,11 +24,11 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">Reading Loading Using Runtime Starting STARTING Read Loaded Started Enabled enabled Adding Running startup Logging Trying Copying CMakeLists.txt true</Keywords>
-            <Keywords name="Keywords2">Closing Killing Removing unavailable Shutting down Stopping Shutdown Limiting NOT false</Keywords>
-            <Keywords name="Keywords3">INFO BUILD SUCCEEDED succeeded CMAKE_BUILD_TYPE CMake PLATFORM KDU FMODSTUDIO FMODEX OPENSIM SINGLEGRID AVX AVX2 CRASHREPORTING TESTBUILD PACKAGE CLEAN CONFIG NINJA PASSTHRU BTYPE</Keywords>
-            <Keywords name="Keywords4">DEBUG debug</Keywords>
-            <Keywords name="Keywords5">OpenSimDefaults.ini OpenSim.ini OpenosslEnable.ini osslEnable.ini GridHypergrid.ini GridCommon.ini FlotsamCache.ini DivaPreferences.ini OpenOsslEnable.ini MyWorld.ini osslDefaultEnable.ini MoneyServer.ini</Keywords>
+            <Keywords name="Keywords1">Reading Loading Using Runtime Starting STARTING Read Loaded Started Enabled enabled Adding Running startup Logging Trying Copying CMakeLists.txt true MULTITOOL MAKEVERZEICHNISLISTE ROSTART MOSTART AUTOSIMSTART MAKEREGIONSLISTE</Keywords>
+            <Keywords name="Keywords2">Closing Killing Removing unavailable Shutting down Stopping Shutdown Limiting NOT false AUTOSIMSTOP ROSTOP MOSTOP AUTOSCREENSTOP AUTOLOGDEL AUTOSTOP</Keywords>
+            <Keywords name="Keywords3">INFO BUILD SUCCEEDED succeeded CMAKE_BUILD_TYPE CMake PLATFORM KDU FMODSTUDIO FMODEX OPENSIM SINGLEGRID AVX AVX2 CRASHREPORTING TESTBUILD PACKAGE CLEAN CONFIG NINJA PASSTHRU BTYPE SCREENLIST AUTORESTART HILFE COMPILIEREN SCRIPTCOPY MONEYCOPY OSCOMPI OSCOPY AUTOSTART</Keywords>
+            <Keywords name="Keywords4">DEBUG debug OSCOMMAND</Keywords>
+            <Keywords name="Keywords5">OpenSimDefaults.ini OpenSim.ini OpenosslEnable.ini osslEnable.ini GridHypergrid.ini GridCommon.ini FlotsamCache.ini DivaPreferences.ini OpenOsslEnable.ini MyWorld.ini osslDefaultEnable.ini MoneyServer.ini WORKS OSBACKUP OSUPGRADE</Keywords>
             <Keywords name="Keywords6">scripts thread variable caching UserAccount constant</Keywords>
             <Keywords name="Keywords7">http URL HG checking</Keywords>
             <Keywords name="Keywords8">ERROR WARN WARNING Failed warning error FAILED Warning Error False Warnung Fehler</Keywords>
